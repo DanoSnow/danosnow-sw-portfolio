@@ -26,6 +26,7 @@ function App() {
             <Route path="/danosnow-sw-portfolio/about" element={<About />} />
             <Route path="/danosnow-sw-portfolio/skills" element={<Skills />} />
             <Route path="/danosnow-sw-portfolio/resume" element={<Resume />} />
+            <Route path="*" element={<Navigate to="/danosnow-sw-portfolio" replace />} />
           </Routes>
         </div>
       </BrowserRouter>
