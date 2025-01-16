@@ -22,7 +22,7 @@ function App() {
         <Navbar />
         <div>
           <Routes>
-            <Route path="/danosnow-sw-portfolio" element={<Home />} />
+            <Route path="/danosnow-sw-portfolio/" element={<Home />} />
             <Route path="/danosnow-sw-portfolio/about" element={<About />} />
             <Route path="/danosnow-sw-portfolio/skills" element={<Skills />} />
             <Route path="/danosnow-sw-portfolio/resume" element={<Resume />} />

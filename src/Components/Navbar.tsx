@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="navbar-start"></div>
             <div className="navbar-center">
                 <div className='flex md:space-x-16 space-x-8 text-lg main-font'>
-                    <Link to="/danosnow-sw-portfolio" className={routeContext?.currentRoute === '/danosnow-sw-portfolio' ? 'text-red-500' : 'text-white'}>Home</Link>
+                    <Link to="/danosnow-sw-portfolio/" className={routeContext?.currentRoute === '/danosnow-sw-portfolio/' ? 'text-red-500' : 'text-white'}>Home</Link>
                     <Link to="/danosnow-sw-portfolio/about" className={routeContext?.currentRoute === '/danosnow-sw-portfolio/about' ? 'text-red-500' : 'text-white'}>About</Link>
                     <Link to="/danosnow-sw-portfolio/skills" className={routeContext?.currentRoute === '/danosnow-sw-portfolio/skills' ? 'text-red-500' : 'text-white'}>Skills</Link>
                     <Link to="/danosnow-sw-portfolio/resume" className={routeContext?.currentRoute === '/danosnow-sw-portfolio/resume' ? 'text-red-500' : 'text-white'}>Resume</Link>
